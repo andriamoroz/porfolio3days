@@ -1,0 +1,370 @@
+body{
+  color: #2b2a2c;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {  
+  
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c845217/v845217226/1829b9/nbERvMclMOQ.jpg');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.description {
+  margin-left: 9px;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.memu-list{
+  
+  display: flex;
+  align-items: center;
+}
+
+.memu-list_a a {
+  
+  display: inline-block;
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  margin-right: 34px;
+  position:relative;
+}
+.memu-list_a a:after {
+    background-color: #2b2a2c;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.memu-list_a a:hover:after {
+  width: 100%;
+}
+.menu-button {
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+  text-decoration: none;
+}
+.hero{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 112px;
+  background: url('https://ru.files.fm/thumb_show.php?i=pqvuc9za&view') no-repeat right bottom;
+  padding-bottom: 112px;
+} 
+.hero-subtitle {
+  
+  font-size: 32px;
+}
+.hero-title {
+  
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.hero-description{
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social{
+   margin-top: 25px;
+}
+.social{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+  margin-bottom: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg{
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.button {
+  text-decoration: none;
+ 
+  border-radius: 50px;
+  padding: 15px 35px;
+  display: inline-block;
+}
+.button-primory{
+  background-color: #2b2a2c;
+   border: 2px solid #2b2a2c;
+  color: #ffffff;
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.25);
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o{
+  border: 2px solid #6a696b;
+  color: #6a696b;
+}
+.project {
+  padding: 97px 0px;
+}
+.project-cards{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project-card{
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  min-height: 370px;
+  width: 370px;
+  margin-bottom: 50px;
+  
+}
+
+.progect-cards-image{
+  height: 300px;
+}
+.landing-page1{
+  background: url('https://uicookies.com/wp-content/uploads/2018/03/landing-free-landing-page-templates.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page2{
+  background: url('https://cdn.freshdesignweb.com/wp-content/uploads/site/AppBox-Free-App-Landing-Page-Template.jpg') no-repeat center;
+  background-size:cover;
+}
+.landing-page3{
+  background: url('https://cdn.designsmaz.com/wp-content/uploads/2015/09/Free-HTML-Landing-Page-Templates-2016.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page4{
+  background: url('https://images.template.net/wp-content/uploads/2014/12/Slander-Responsive-Bootstrap-HTML5-Landing-Page.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page5{
+  background: url('https://d2zav2bjdlctd5.cloudfront.net/uploads/2017/08/Landing-Sumo-free-html-landing-page-templates.png') no-repeat center;
+  background-size:cover;
+}
+.landing-page6{
+  background: url('https://cms-assets.tutsplus.com/uploads/users/1223/posts/32352/image/Landing%20Page.jpg') no-repeat center;
+  background-size: cover;
+}
+.social-page1{
+  background: url('https://images.golos.io/DQmXHReWfuw311d8NLiNjmFYfZH8sV4K5c9vkpcC7DugK8S/image.png') no-repeat center;
+  background-size: cover;
+}
+.social-page2{
+  background: url('https://www.facebook.com/images/fb_icon_325x325.png') no-repeat center;
+  background-size: cover;
+}
+.social-page3{
+  background: url('http://ostroum.ru/wp-content/uploads/2015/10/YouTube-avatar-generic-6.png') no-repeat center;
+  background-size: cover;
+}
+.project-card_info{
+  padding: 19px 13px;
+}
+.project-category{
+  display: block;
+  color: #2b2a2c;
+  font-size: 12px;
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.about{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 105px;
+} 
+.about-me_paragraph{
+  color: #6a696b;
+  font-size: 13px;
+  width: 470px;
+}
+.about-me-buttons{
+  margin-top: 53px;
+  
+}
+.me{
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+  
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.footer-copyright{
+  margin-right: 16px;
+  padding-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social_link{
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.footer-menu a{
+  margin-right: 30px;
+}
+.footer-button{
+  font-size: 14px;
+  border-radius: 50px;
+  border: 2px solid #8d8d8e;
+  padding: 8px 24px;
+}
+@media (max-width: 1200px) {
+  .container{
+    width: 965px;
+  }
+  .project-card{
+  width: 48%;
+  }
+  .about-me_paragraph{
+    width: 350px;
+  }
+}
+@media (max-width: 992px) {
+  .container{
+    width: 760px;
+  }
+  .project-card{
+  width: 48%;
+  }
+  
+ .about-me_paragraph{
+    width: 300px;
+  }
+  .footer-copyright{
+ 
+  font-size: 10px;
+}
+.footer-social_link{
+  font-size: 15px;
+  margin-right: 15px;
+  }
+  .footer-menu{
+    font-size: 10px;
+  }
+  .footer-button{
+    font-size: 10px;
+    border: 1px solid #8d8d8e;
+  }
+  }
+  @media (max-width: 768px ) {
+    .container{
+    width: 95%;
+  }
+  
+    .name {
+  font-size: 14px;
+    }
+    .memu-list {
+      display: none;
+    }
+    .menu-button {
+      font-size: 10px;
+       border: 1px solid #2b2a2c;
+    }
+    .description{
+      font-size: 12px;
+    }
+    .hero{
+      padding-top: 50px;
+      padding-bottom: 450px;
+    }
+    .project-card{
+  width: 95%;
+    margin: 30px auto ;
+  }
+    
+ .me{
+   flex-direction: column;
+    }
+    .about-me{
+      text-align:center;
+     }
+    
+    .footer-menu{
+    display: none;
+  }
+  }
